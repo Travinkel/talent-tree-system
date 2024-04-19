@@ -1,0 +1,39 @@
+{
+    "name": "talent-tree-system",
+    "title": "Talent Tree System",
+    "description": "Adds a customizable talent tree system to Foundry VTT, allowing for detailed character customization in D&D 5e.",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "compatibility": {
+      "minimum": "9.0",
+      "recommended": "11.0",
+      "tested": "11.0"
+    },
+    "url": "https://yourmodulewebsite.com",
+    "manifest": "https://yourmodulewebsite.com/module.json",
+    "scripts": [
+      "scripts/main.js",
+      "scripts/talent-tree-sheet.js",
+      "scripts/talent-tree.js"
+    ],
+    "styles": [
+      "styles/styles.css"
+    ],
+    "packs": [
+      {
+        "name": "talents",
+        "label": "Talents",
+        "path": "./packs/talents.db",
+        "entity": "Item",
+        "type": "Item"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "languages/en.json"
+      }
+    ]
+  }
+  

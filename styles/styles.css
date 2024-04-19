@@ -1,0 +1,18 @@
+.tabs .item {
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+.tabs .item.active, .tabs .item:hover{
+    border-bottom-color: #fff;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}

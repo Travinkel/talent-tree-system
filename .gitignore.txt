@@ -1,9 +1,0 @@
-# Node modules
-node_modules/
-
-# Log files
-*.log
-
-# FoundryVTT specific data that shouldn't be version controlled
-data/
-logs/
